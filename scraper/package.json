@@ -1,0 +1,66 @@
+{
+  "name": "scraper/scraper",
+  "version": "5.0.1",
+  "description": "Browserless scraper module",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/@types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/esm/index.js",
+      "require": "./lib/cjs/index.js",
+      "types": "./lib/@types/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:cjs && npm run build:esm && npm run build:types",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:types": "tsc -p tsconfig.types.json",
+    "compile": "node ../../scripts/compile-typescript.js && npm run write:package",
+    "write:package": "node ../../scripts/write-package.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReyEndymion/scraper.git"
+  },
+  "author": "ReyEndymion",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ReyEndymion/scraper/issues"
+  },
+  "homepage": "https://github.com/ReyEndymion/scraper#readme",
+  "keywords": [
+    "scraper",
+    "web scraping",
+    "http web scraping"
+  ],
+  "files": [
+    "lib/**/*.js",
+    "lib/**/**.d.ts",
+    "lib/**/package.json"
+  ],
+  "dependencies": {
+    "scraper/scraper-bmkg": "^5.0.0",
+    "scraper/scraper-facebook": "^5.0.0",
+    "scraper/scraper-games": "^5.0.0",
+    "scraper/scraper-googleit": "^5.0.0",
+    "scraper/scraper-images": "^5.0.0",
+    "scraper/scraper-instagram": "^5.0.0",
+    "scraper/scraper-lyrics": "^5.0.0",
+    "scraper/scraper-mediafire": "^5.0.0",
+    "scraper/scraper-news": "^5.0.0",
+    "scraper/scraper-others": "^5.0.0",
+    "scraper/scraper-primbon": "^5.0.0",
+    "scraper/scraper-religions": "^5.0.0",
+    "scraper/scraper-savefrom": "^5.0.0",
+    "scraper/scraper-sfilemobi": "^5.0.0",
+    "scraper/scraper-snapsave": "^5.0.0",
+    "scraper/scraper-texts": "^5.0.0",
+    "scraper/scraper-tiktok": "^5.0.0",
+    "scraper/scraper-twitter": "^5.0.0",
+    "scraper/scraper-wikipedia": "^5.0.0",
+    "scraper/scraper-youtube": "^5.0.0"
+  }
+}
