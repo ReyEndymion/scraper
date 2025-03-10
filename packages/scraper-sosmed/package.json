@@ -1,5 +1,5 @@
 {
-  "name": "scraper/scraper-sosmed",
+  "name": "@reyendymion/scraper-sosmed",
   "version": "1.0.5",
   "description": "Social media scraper module",
   "main": "lib/cjs/index.js",

@@ -3,14 +3,14 @@ Fetcher data from [games databases](https://github.com/ReyEndymion/database/tree
 
 ## Installation
 ```sh
-npm i scraper/scraper-games
+npm i @reyendymion/scraper-games
 ```
 
 ## Usage 
 Example get asahotak data:
 ```ts
 // Import module
-import { asahotak } from 'scraper/scraper-games'
+import { asahotak } from '@reyendymion/scraper-games'
 
 const data = await  asahotak()
 console.log(data) // JSON

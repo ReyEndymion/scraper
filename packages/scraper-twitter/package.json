@@ -1,6 +1,6 @@
 {
-  "name": "scraper/scraper-twitter",
-  "version": "5.0.0",
+  "name": "@reyendymion/scraper-twitter",
+  "version": "0.0.1",
   "description": "Twitter scraper module",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",

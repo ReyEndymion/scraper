@@ -3,14 +3,14 @@ Scraper Youtube data like download video Youtube
 
 ## Installation
 ```sh
-npm i scraper/scraper-youtube
+npm i @reyendymion/scraper-youtube
 ```
 
 ## Usage 
 Example download youtube video
 ```ts
 // import module
-import { youtubedl } from 'scraper/scraper-youtube'
+import { youtubedl } from '@reyendymion/scraper-youtube'
 
 const data = await youtubedl('https://youtu.be/iik25wqIuFo')
 console.log(data) // JSON

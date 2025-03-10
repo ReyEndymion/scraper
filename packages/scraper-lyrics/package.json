@@ -1,6 +1,6 @@
 {
-    "name": "scraper/scraper-lyrics",
-    "version": "5.0.0",
+    "name": "@reyendymion/scraper-lyrics",
+    "version": "0.0.1",
     "description": "Lyrics scraper module",
     "main": "lib/cjs/index.js",
     "module": "lib/esm/index.js",

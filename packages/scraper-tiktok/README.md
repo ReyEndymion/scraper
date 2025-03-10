@@ -4,14 +4,14 @@ Module to download content from Tiktok
 
 ## Installation
 ```sh
-npm i scraper/scraper-tiktok
+npm i @reyendymion/scraper-tiktok
 ```
 
 ## Usage 
 Example download Instagram video
 ```ts
 // import module
-import { tiktokdl } from 'scraper/scraper-tiktok'
+import { tiktokdl } from '@reyendymion/scraper-tiktok'
 
 const data = await tiktokdl('https://www.instagram.com/reel/CxSEjxfyJtN')
 console.log(data) // JSON

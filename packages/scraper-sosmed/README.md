@@ -3,14 +3,14 @@ Scraper social media data
 
 ## Installation
 ```sh
-npm i scraper/scraper-sosmed
+npm i @reyendymion/scraper-sosmed
 ```
 
 ## Usage 
 Example tiktok video download
 ```ts
 // Import module
-import { savefrom, tiktokdl } from 'scraper/scraper-sosmed'
+import { savefrom, tiktokdl } from '@reyendymion/scraper-sosmed'
 
 const url = 'https://www.tiktok.com/@omagadsus/video/7025456384175017243?is_from_webapp=1&sender_device=pc&web_id6982004129280116226'
 // Using tiktokdl
@@ -22,7 +22,7 @@ console.log(result) // JSON
 ```
 Example download youtube video
 ```ts
-import { youtubedl } from 'scraper/scraper-sosmed'
+import { youtubedl } from '@reyendymion/scraper-sosmed'
 
 const data = await youtubedl('https://youtu.be/iik25wqIuFo')
 console.log(data) // JSON

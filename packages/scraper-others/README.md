@@ -4,13 +4,13 @@ Other.
 
 ## Installation
 ```sh
-npm i scraper/scraper-others
+npm i @reyendymion/scraper-others
 ```
 
 ## Usage 
 ```ts
 // Import module
-import { kodepos } from 'scraper/scraper-others'
+import { kodepos } from '@reyendymion/scraper-others'
 
 const data = await kodepos('Samboja')
 console.log(data) // JSON

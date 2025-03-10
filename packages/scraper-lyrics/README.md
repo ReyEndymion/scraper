@@ -2,13 +2,13 @@
 [Documentation](https://ReyEndymion.github.io/scraper/modules/_ReyEndymion_scraper_lyrics.html)
 ## Installation
 ```sh
-npm i scraper/scraper-lyrics
+npm i @reyendymion/scraper-lyrics
 ```
 
 ## Usage Example
 ```ts
 // Import module
-import { lyrics, lyricsv2 } from 'scraper/scraper-lyrics'
+import { lyrics, lyricsv2 } from '@reyendymion/scraper-lyrics'
 
 const data = await lyrics('Bohemian Rhapsody')
 console.log(data) // JSON

@@ -3,14 +3,14 @@ News scraper from Indonesian news sites
 
 ## Installation
 ```sh
-npm i scraper/scraper-news
+npm i @reyendymion/scraper-news
 ```
 
 ## Usage 
 Example get news from [cnbc](https://www.cnbcindonesia.com/)
 ```ts
 // Import module
-import { cnbcindonesia } from 'scraper/scraper-news'
+import { cnbcindonesia } from '@reyendymion/scraper-news'
 
 const data = await cnbcindonesia()
 console.log(data) // JSON

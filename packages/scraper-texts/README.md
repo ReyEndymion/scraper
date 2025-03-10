@@ -3,14 +3,14 @@ Texts scraper or Fetcher texts data from [texts databases](https://github.com/Re
 
 ## Installation
 ```sh
-npm i scraper/scraper-texts
+npm i @reyendymion/scraper-texts
 ```
 
 ## Usage 
 Example convert text to/from Javanese alphabet
 ```ts
 // Import module
-import { latinToAksara, aksaraToLatin } from 'scraper/scraper-texts'
+import { latinToAksara, aksaraToLatin } from '@reyendymion/scraper-texts'
 
 // To Javanese alphabet
 const aksara = latinToAksara('Cepet go')

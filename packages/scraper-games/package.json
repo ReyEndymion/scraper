@@ -1,6 +1,6 @@
 {
-  "name": "scraper/scraper-games",
-  "version": "5.0.0",
+  "name": "@reyendymion/scraper-games",
+  "version": "0.0.1",
   "description": "Games data's scraper module",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",

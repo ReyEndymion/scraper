@@ -1,6 +1,6 @@
 {
-    "name": "scraper/scraper-images",
-    "version": "5.0.0",
+    "name": "@reyendymion/scraper-images",
+    "version": "0.0.1",
     "description": "Images scraper module",
     "main": "lib/cjs/index.js",
     "module": "lib/esm/index.js",

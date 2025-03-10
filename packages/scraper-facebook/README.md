@@ -4,14 +4,14 @@ Module to download content from Facebook
 
 ## Installation
 ```sh
-npm i scraper/scraper-facaebook
+npm i @reyendymion/scraper-facaebook
 ```
 
 ## Usage 
 Example download Instagram video
 ```ts
 // import module
-import { facebookdl } from 'scraper/scraper-facebook'
+import { facebookdl } from '@reyendymion/scraper-facebook'
 
 const data = await facebookdl('https://fb.watch/9WktuN9j-z/')
 console.log(data) // JSON

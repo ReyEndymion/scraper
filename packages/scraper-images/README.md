@@ -3,14 +3,14 @@ Scraper to find pictures/images
 
 ## Installation
 ```sh
-npm i scraper/scraper-images
+npm i @reyendymion/scraper-images
 ```
 
 ## Usage 
 Example get images from Google image:
 ```ts
 // Import module
-import { googleImage } from 'scraper/scraper-images'
+import { googleImage } from '@reyendymion/scraper-images'
 
 const data = await googleImage('Minecraft')
 console.log(data) // JSON

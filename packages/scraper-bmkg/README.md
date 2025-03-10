@@ -3,14 +3,14 @@ Contains scrapers [BMKG](https://www.bmkg.go.id/) website
 
 ## Installation
 ```sh
-npm i scraper/scraper-bmkg
+npm i @reyendymion/scraper-bmkg
 ```
 
 ## Usage 
 Example get data earthQuake (earthquake):
 ```ts
 // Import module
-import { earthQuake } from 'scraper/scraper-bmkg'
+import { earthQuake } from '@reyendymion/scraper-bmkg'
 
 const data = await earthQuake()
 console.log(data) // JSON

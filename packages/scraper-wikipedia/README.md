@@ -4,14 +4,14 @@ Module to scrape content from Wikipedia
 
 ## Installation
 ```sh
-npm i scraper/scraper-others
+npm i @reyendymion/scraper-others
 ```
 
 ## Usage 
 Example get information from [Wikipedia](https://www.wikipedia.org/) about Minecraft
 ```ts
 // Import module
-import { wikipedia } from 'scraper/scraper-wikipedia'
+import { wikipedia } from '@reyendymion/scraper-wikipedia'
 
 const data = await wikipedia('Minecraft', 'en') // 'en' as lang
 console.log(data) // JSON

@@ -1,6 +1,6 @@
 {
-    "name": "scraper/scraper-primbon",
-    "version": "5.0.0",
+    "name": "@reyendymion/scraper-primbon",
+    "version": "0.0.1",
     "description": "Primbon scraper module",
     "main": "lib/cjs/index.js",
     "module": "lib/esm/index.js",

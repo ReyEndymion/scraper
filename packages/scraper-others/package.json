@@ -1,6 +1,6 @@
 {
-    "name": "scraper/scraper-others",
-    "version": "5.0.0",
+    "name": "@reyendymion/scraper-others",
+    "version": "0.0.1",
     "description": "Others scraper module",
     "main": "lib/cjs/index.js",
     "module": "lib/esm/index.js",

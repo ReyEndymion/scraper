@@ -4,13 +4,13 @@ Module to scrape content from Google
 
 ## Installation
 ```sh
-npm i scraper/scraper-tiktok
+npm i @reyendymion/scraper-tiktok
 ```
 
 ## Usage 
 ```ts
 // import module
-import { googleit } from 'scraper/scraper-googleit'
+import { googleit } from '@reyendymion/scraper-googleit'
 
 const data = await googleit('Minecraft')
 console.log(data) // JSON

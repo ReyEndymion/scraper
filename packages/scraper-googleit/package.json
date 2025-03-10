@@ -1,6 +1,6 @@
 {
-  "name": "scraper/scraper-googleit",
-  "version": "5.0.0",
+  "name": "@reyendymion/scraper-googleit",
+  "version": "0.0.1",
   "description": "GoogleIt scraper module",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",

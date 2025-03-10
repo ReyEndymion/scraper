@@ -1,6 +1,6 @@
 {
-    "name": "scraper/scraper-savefrom",
-    "version": "5.0.0",
+    "name": "@reyendymion/scraper-savefrom",
+    "version": "0.0.1",
     "description": "SaveFrom scraper module",
     "main": "lib/cjs/index.js",
     "module": "lib/esm/index.js",
