@@ -1,5 +1,5 @@
 # Scraper 
-Scraper es una biblioteca NodeJS con muchas características incorporadas que pueden obtener datos de los sitios web que usan solo HTTP.Está diseñado para ser simple y fácil de usar. 
+Scraper es una biblioteca NodeJS con muchas características incorporadas que pueden obtener datos de los sitios web que usan solo HTTP. Está diseñado para ser simple y fácil de usar. Esta inspirado en el scraper de [BochilTeam](https://github.com/BochilTeam/scraper)
 
 ## Instalación
 Instale la versión estable de Scraper:
