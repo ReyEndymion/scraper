@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "allowJs": true,
+        "checkJs": true,
+        "target": "ES2019",
+        "moduleResolution": "Node10",
+        "lib": [
+            "es2020.string"
+        ],
+        "types": ["node"],
+        "declaration": false,
+        "strict": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true
+    },
+    "exclude": [
+        "**/node_modules/*",
+        "**/lib/*",
+        "**/docs/*",
+        "**/scripts/**/*.js"
+    ]
+}
