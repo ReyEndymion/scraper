@@ -18,7 +18,7 @@ const exec = promisify(child_process.exec)
 
 async function compileTypeScript() {
   const out = await exec('npm run build').catch((error) => {
-    console.error('@ReyEndymion/scraper:', 'Error running TypeScript\n', error)
+    console.error('@ReyEndymion/scraper:', 'Error en ejecución de TypeScript\n', error)
     process.exit(1)
   })
   if (out.stdout.trim()) console.log(out.stdout)
@@ -31,7 +31,7 @@ async function compileTypeScriptIfRequired() {
   // const typesExists = await fileExists(typesPath)
   // if (libExists && typesExists) return
 
-  console.log('@ReyEndymion/scraper:', 'Compiling TypeScript...')
+  console.log('@ReyEndymion/scraper:', 'Compilación de TypeScript...')
   await compileTypeScript()
 }
 
