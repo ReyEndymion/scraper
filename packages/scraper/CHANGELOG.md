@@ -39,7 +39,6 @@
   - @reyendymion/scraper-news@1.0.2
   - @reyendymion/scraper-others@1.0.2
   - @reyendymion/scraper-primbon@1.0.2
-  - @reyendymion/scraper-religions@1.0.2
   - @reyendymion/scraper-sosmed@1.0.2
   - @reyendymion/scraper-texts@1.0.2
 
@@ -59,6 +58,5 @@
   - @reyendymion/scraper-news@1.0.1
   - @reyendymion/scraper-others@1.0.1
   - @reyendymion/scraper-primbon@1.0.1
-  - @reyendymion/scraper-religions@1.0.1
   - @reyendymion/scraper-sosmed@1.0.1
   - @reyendymion/scraper-texts@1.0.1
