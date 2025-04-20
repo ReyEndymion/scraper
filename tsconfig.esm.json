@@ -1,6 +1,8 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "module": "ESNext"
+    "outDir": "./packages/scraper/lib/esm/",
+    "module": "ESNext",
+    "moduleResolution": "Node"
   }
 }

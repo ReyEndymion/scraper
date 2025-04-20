@@ -1,6 +1,16 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "module": "CommonJS"
+    "declaration": true,
+    "declarationDir": "./types",
+    "rootDir": "./packages/scraper/src",
+    "outDir": "./packages/scraper/lib/cjs",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "baseUrl": "./packages",
+    "paths": {
+      "@reyendymion/scraper-*": ["./scraper-*/src"]
+    },
+    "composite": true
   }
 }

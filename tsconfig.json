@@ -1,0 +1,26 @@
+{
+    "files": [],
+    "references": [
+      { "path": "./packages/scraper" },
+      { "path": "./packages/scraper-bmkg" },
+      { "path": "./packages/scraper-facebook" },
+      { "path": "./packages/scraper-games" },
+      { "path": "./packages/scraper-googleit" },
+      { "path": "./packages/scraper-images" },
+      { "path": "./packages/scraper-instagram" },
+      { "path": "./packages/scraper-lyrics" },
+      { "path": "./packages/scraper-mediafire" },
+      { "path": "./packages/scraper-news" },
+      { "path": "./packages/scraper-others" },
+      { "path": "./packages/scraper-primbon" },
+      { "path": "./packages/scraper-savefrom" },
+      { "path": "./packages/scraper-sfilemobi" },
+      { "path": "./packages/scraper-snapsave" },
+      { "path": "./packages/scraper-texts" },
+      { "path": "./packages/scraper-tiktok" },
+      { "path": "./packages/scraper-twitter" },
+      { "path": "./packages/scraper-wikipedia" },
+      { "path": "./packages/scraper-youtube" }
+    ]
+  }
+  

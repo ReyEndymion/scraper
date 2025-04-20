@@ -1,18 +1,21 @@
 {
     "compilerOptions": {
+        "rootDir": "./src",
         "esModuleInterop": true,
         "allowJs": true,
         "checkJs": true,
         "target": "ES2019",
-        "moduleResolution": "Node10",
+        "moduleResolution": "NodeNext",
         "lib": [
             "es2020.string"
         ],
         "types": ["node"],
         "declaration": false,
+        "declarationDir": "./lib/@types",
         "strict": true,
         "resolveJsonModule": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "outDir": "./packages/scraper/lib"
     },
     "exclude": [
         "**/node_modules/*",
