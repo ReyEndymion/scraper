@@ -1,0 +1,65 @@
+{
+  "name": "@reyendymion/scraper",
+  "version": "0.0.1",
+  "description": "Browserless scraper module",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/@types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/esm/index.js",
+      "require": "./lib/cjs/index.js",
+      "types": "./lib/@types/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:cjs && npm run build:esm && npm run build:types",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:types": "tsc -p tsconfig.types.json",
+    "compile": "node ../../scripts/compile-typescript.js && npm run write:package",
+    "write:package": "node ../../scripts/write-package.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReyEndymion/scraper.git"
+  },
+  "author": "ReyEndymion",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ReyEndymion/scraper/issues"
+  },
+  "homepage": "https://github.com/ReyEndymion/scraper#readme",
+  "keywords": [
+    "scraper",
+    "web scraping",
+    "http web scraping"
+  ],
+  "files": [
+    "lib/**/*.js",
+    "lib/**/**.d.ts",
+    "lib/**/package.json"
+  ],
+  "dependencies": {
+    "@reyendymion/scraper-bmkg": "^0.0.1",
+    "@reyendymion/scraper-facebook": "^0.0.1",
+    "@reyendymion/scraper-games": "^0.0.1",
+    "@reyendymion/scraper-googleit": "^0.0.1",
+    "@reyendymion/scraper-images": "^0.0.1",
+    "@reyendymion/scraper-instagram": "^0.0.1",
+    "@reyendymion/scraper-lyrics": "^0.0.1",
+    "@reyendymion/scraper-mediafire": "^0.0.1",
+    "@reyendymion/scraper-news": "^0.0.1",
+    "@reyendymion/scraper-others": "^0.0.1",
+    "@reyendymion/scraper-primbon": "^0.0.1",
+    "@reyendymion/scraper-savefrom": "^0.0.1",
+    "@reyendymion/scraper-sfilemobi": "^0.0.1",
+    "@reyendymion/scraper-snapsave": "^0.0.1",
+    "@reyendymion/scraper-texts": "^0.0.1",
+    "@reyendymion/scraper-tiktok": "^0.0.1",
+    "@reyendymion/scraper-twitter": "^0.0.1",
+    "@reyendymion/scraper-wikipedia": "^0.0.1",
+    "@reyendymion/scraper-youtube": "^0.0.1"
+  }
+}
