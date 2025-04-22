@@ -1,6 +1,6 @@
 {
     "$schema": "https://turbo.build/schema.json",
-    "tasks": {
+    "pipeline": {
         "compile": {
             "inputs": [
                 "src/**/*.ts",
@@ -13,10 +13,6 @@
                 "lib/types/**"
             ]
         },
-        "build": {
-            "dependsOn": ["^build"],
-            "outputs": ["lib/**"]
-          },
         "build:esm": {
             "inputs": [
                 "src/**/*.ts",
