@@ -6,10 +6,10 @@
         "url": "git+https://github.com/ReyEndymion/scrapers-latam.git"
     },
     "scripts": {
-        "compile": "turbo run compile --parallel --color --filter=!@reyendymion/scraper && turbo run compile --color --filter=@reyendymion/scraper",
-        "build:esm": "turbo run build:esm --parallel --color --filter=!@reyendymion/scraper && turbo run build:esm --color --filter=@reyendymion/scraper && npm run write:package",
-        "build:cjs": "turbo run build:cjs --parallel --color --filter=!@reyendymion/scraper && turbo run build:cjs --color --filter=@reyendymion/scraper && npm run write:package",
-        "build:types": "turbo run build:types --parallel --color --filter=!@reyendymion/scraper && turbo run build:types --color --filter=@reyendymion/scraper",
+        "compile": "turbo run compile --parallel --color --filter=!@reyendymion/scrapers-latam && turbo run compile --color --filter=@reyendymion/scrapers-latam",
+        "build:esm": "turbo run build:esm --parallel --color --filter=!@reyendymion/scrapers-latam && turbo run build:esm --color --filter=@reyendymion/scrapers-latam && npm run write:package",
+        "build:cjs": "turbo run build:cjs --parallel --color --filter=!@reyendymion/scrapers-latam && turbo run build:cjs --color --filter=@reyendymion/scrapers-latam && npm run write:package",
+        "build:types": "turbo run build:types --parallel --color --filter=!@reyendymion/scrapers-latam && turbo run build:types --color --filter=@reyendymion/scrapers-latam",
         "build:pages": "typedoc --tsconfig tsconfig.base.json",
         "write:package": "turbo run write:package",
         "test": "turbo run test --color",
