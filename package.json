@@ -1,12 +1,12 @@
 {
-    "name": "@reyendymion/scraper",
+    "name": "@reyendymion/scrapers-latam",
     "private": true,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ReyEndymion/scraper.git"
+        "url": "git+https://github.com/ReyEndymion/scrapers-latam.git"
     },
     "scripts": {
-        "build": "npm run build:cjs && npm run build:esm && npm run build:types",        "compile": "turbo run compile --parallel --color --filter=!@reyendymion/scraper && turbo run compile --color --filter=@reyendymion/scraper",
+        "compile": "turbo run compile --parallel --color --filter=!@reyendymion/scraper && turbo run compile --color --filter=@reyendymion/scraper",
         "build:esm": "turbo run build:esm --parallel --color --filter=!@reyendymion/scraper && turbo run build:esm --color --filter=@reyendymion/scraper && npm run write:package",
         "build:cjs": "turbo run build:cjs --parallel --color --filter=!@reyendymion/scraper && turbo run build:cjs --color --filter=@reyendymion/scraper && npm run write:package",
         "build:types": "turbo run build:types --parallel --color --filter=!@reyendymion/scraper && turbo run build:types --color --filter=@reyendymion/scraper",
@@ -45,7 +45,5 @@
         "packages/scraper-twitter",
         "packages/scraper-wikipedia",
         "packages/scraper-youtube"
-    ],
-    "packageManager": "npm@10.8.0"
-
+    ]
 }
